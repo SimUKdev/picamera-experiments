@@ -16,4 +16,3 @@ There are various sources of informaiton to learn more about the Raspberry Pi ca
 * Documentation for the PiCamera python module is available at https://picamera.readthedocs.io/
 * Official documentation for the Camera modules is available from Raspberry Pi's website https://www.raspberrypi.org/documentation/hardware/camera/README.md
 * Official Raspberry Pi Camera Guide book https://magpi.raspberrypi.org/books/camera-guide
-
