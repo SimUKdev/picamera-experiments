@@ -14,7 +14,7 @@ camera.start_preview(fullscreen=False, window = (50,150,1024,576))
 for awbmode in camera.AWB_MODES:
     camera.awb_mode = awbmode
     camera.annotate_background = Color('black')
-    camera.annotate_text = "AWB Mode: %s" % awbmode
+    camera.annotate_text = "AWB Mode : {0}".format(awbmode)
     camera.capture('/home/pi/Camera/img_awbmode_{0}.jpg'.format(awbmode))
     sleep(2)
 
